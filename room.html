@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Room</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <h2 id="roomTitle"></h2>
+  <p>Bet: <span id="roomBet"></span></p>
+
+  <h3>Choose Team</h3>
+  <button onclick="joinTeam('Red')">Team Red</button>
+  <button onclick="joinTeam('Blue')">Team Blue</button>
+
+  <h3>Chat</h3>
+  <div id="chatBox" style="border: 1px solid #ccc; height: 200px; overflow-y: auto; padding: 5px;"></div>
+  <input type="text" id="chatInput">
+  <button onclick="sendChat()">Send</button>
+
+  <script src="assets/js/room.js"></script>
+</body>
+</html>
+
+
