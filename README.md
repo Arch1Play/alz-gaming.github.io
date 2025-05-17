@@ -20,7 +20,5 @@ A web-based betting platform inspired by popular games like Crossfire, Dota 2, a
 
 ## Getting Started
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/betting-game-website.git
+Visit Our Website: https://arch1play.github.io/alz-gaming.github.io/
 

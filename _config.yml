@@ -2,17 +2,21 @@
 
 site_name: "Betting Game Hub"
 author: "Your Name"
-description: "A betting website featuring games like Crossfire, Dota 2, Mobile Legends with room creation, chat, credit system, deposit & withdraw features."
+description: "A modern betting website featuring games like Crossfire, Dota 2, Mobile Legends with room creation, chat, credit system, deposit & withdraw features."
 version: "1.0.0"
 
 theme:
-  name: "dark-mode"
-  primary_color: "#1e1e2f"
-  secondary_color: "#3e3e5e"
-  accent_color: "#ff4d4d"
-  font_family: "Segoe UI, Tahoma, Geneva, Verdana, sans-serif"
-  background_color: "#12121f"
-  text_color: "#ffffff"
+  name: "modern-light"
+  primary_color: "#4F46E5"        # Indigo-600
+  secondary_color: "#3B82F6"      # Blue-500
+  accent_color: "#F59E0B"         # Amber-500
+  background_color: "#F9FAFB"     # Gray-50
+  card_background: "#FFFFFF"      # White
+  text_primary: "#111827"         # Gray-900
+  text_secondary: "#6B7280"       # Gray-500
+  font_family: "'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+  border_radius: "8px"
+  box_shadow: "0 4px 12px rgba(0, 0, 0, 0.1)"
 
 features:
   - User registration & login with email verification
@@ -22,5 +26,6 @@ features:
   - Real-time chat in rooms
   - Admin panel for managing deposits and withdrawals
 
-repository: "https://github.com/yourusername/betting-game-website"
+website: "https://arch1play.github.io/alz-gaming.github.io/"
 license: "MIT"
+
